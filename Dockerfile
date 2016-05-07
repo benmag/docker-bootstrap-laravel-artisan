@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 
-MAINTAINER Ben Maggacis, ben.maggacis@qut.edu.au
+MAINTAINER Ben M, git@bmagg.com
 
 # Install packages
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -yq install curl apache2 libapache2-mod-php5 \
